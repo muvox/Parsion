@@ -3,6 +3,8 @@ project(Parsion)
 
 set(CMAKE_CXX_STANDARD 14)
 
+set (CMAKE_CXX_FLAGS "-lmingw32 -static-libgcc -static-libstdc++")
+
 set(CMAKE_MODULE_PATH "C:/Dev/CPP/CMake/Modules")
 
 set(SDL2_PATH "C:/Dev/CPP/SDL2-2.0.9/x86_64-w64-mingw32")
